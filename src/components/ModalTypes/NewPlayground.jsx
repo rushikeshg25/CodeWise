@@ -38,10 +38,10 @@ const NewPlayground = () => {
   const { addPlayground } = useContext(PlaygroundContext);
 
   const languageOptions = [
-    { value: "cpp", label: "C++" },
-    { value: "java", label: "Java" },
-    { value: "javascript", label: "Javascript" },
-    { value: "python", label: "Python" },
+    { value: "cpp", label: "cpp" },
+    { value: "java", label: "java" },
+    { value: "javascript", label: "javascript" },
+    { value: "python", label: "python" },
   ];
 
   const {folderId} = isOpenModal.identifiers;
