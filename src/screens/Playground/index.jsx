@@ -59,7 +59,7 @@ const Playground = () => {
       headers: {
         'content-type': 'application/json',
         'Content-Type': 'application/json',
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': 'c6005ceca4mshc1945920dc52b62p1a1a5ajsn4f214507677b',
         'X-RapidAPI-Host': 'judge0-ce.p.rapidapi.com'
       },
       data: JSON.stringify({
@@ -80,7 +80,7 @@ const Playground = () => {
       url: "https://judge0-ce.p.rapidapi.com/submissions/" + token,
       params: { base64_encoded: 'true', fields: '*' },
       headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+        'X-RapidAPI-Key': 'c6005ceca4mshc1945920dc52b62p1a1a5ajsn4f214507677b',
         'X-RapidAPI-Host': 'judge0-ce.p.rapidapi.com'
       }
     };
